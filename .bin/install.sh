@@ -1,4 +1,4 @@
-git clone --bare https://github.com/tgupta3/cgfs.git $HOME/.cfgs
+git clone --bare https://github.com/tgupta3/cfgs.git $HOME/.cfgs
 function config {
    /usr/bin/git --git-dir=$HOME/.cfgs/ --work-tree=$HOME $@
 }
