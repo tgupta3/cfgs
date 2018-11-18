@@ -1,0 +1,15 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "c45e85eb-9dd6-4115-9d00-54f47c34fb7a"
+  "platformio-ide-terminal":
+    style:
+      theme: "solarized-dark"
+  welcome:
+    showOnStartup: false
