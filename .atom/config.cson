@@ -2,8 +2,8 @@
   core:
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "one-light-syntax"
+      "one-dark-ui"
+      "solarized-dark-syntax"
     ]
   editor: {}
   "exception-reporting":
