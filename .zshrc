@@ -10,7 +10,7 @@
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-POWERLEVEL9K_MODE="nerdfont-complete"
+POWERLEVEL9K_MODE="awesome-patched"
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status)
 if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
   POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time ssh context dir vcs)
