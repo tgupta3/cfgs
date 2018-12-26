@@ -117,3 +117,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=$HOME/.cfgs/ --work-tree=$HOME'
 alias mycurl='curl -vo /dev/null'
+if [ "$(uname 2> /dev/null)" != "Linux" ]; then
+      ssh-add -K ~/linux_instance.pem
+fi
