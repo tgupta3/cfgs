@@ -8,3 +8,6 @@ set number              " line numbers
 set ruler               " line/coloumn number
 colorscheme desert      " colorscheme desert
 set nobackup            " get rid of anoying ~file
+
+"Set w!! to write with sudo
+cmap w!! w !sudo tee > /dev/null %   
